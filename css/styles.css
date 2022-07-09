@@ -1,3 +1,8 @@
+*{box-sizing: border-box;
+    margin: 0;
+        padding: 0;
+    }
+
 
 .menu a {
         font-weight: 500;
@@ -9,11 +14,12 @@ line-height: 1.1;
     list-style: none;
 }
 
-.permalink:focus {color: #2196F3}
+.permalink:focus{color: #2196F3}
 .permalink:hover {
     color: #2196F3
 }
-.contact a {
+
+.write a {
         font-weight: 500;
     color:#757575;
 text-decoration: none;
@@ -50,14 +56,13 @@ width: 1600px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
-        width: 270px;
-        height: 16px;
-        top: 774px;
 }
     
 .description {
 list-style: none;
-display: flex;}
+display: flex;
+justify-content: space-between;
+margin-left: 215px;}
 
 .image {
     list-style: none;
@@ -67,6 +72,9 @@ display: flex;}
 
 .company{list-style: none;
     display: flex;
+margin-left: 215px;
+justify-content: space-between;
+padding-right: 215px;
    }    
 
 .about {
@@ -76,20 +84,16 @@ letter-spacing: 0.03em;
 line-height: 1.5;
 letter-spacing: 0.03em;
 text-transform:none;
-width: 270px;
-    height: 75px;
-    left: 215px;
-    top: 800px;}
+text-align: center;
+}
 
-.section {
+.story {
     font-size: 36px;
 line-height: 42px;
 position: absolute;
     letter-spacing: 0.03em;
-        width: 352px;
-        height: 42px;
-        left: 624px;
-        top: 969px;
+    left: 624px;
+     top: 969px;
 }
 
 .team {font-size: 36px;
@@ -112,15 +116,18 @@ background: #2F303A;
 position: absolute;
     width: 1600px;
     height: 252px;
-    top: 2097px;}
+    top: 2097px;
+padding-top: 60px}
 
 .hand {cursor: pointer;}
 
 .name {
         font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
 line-height: 2;
-    letter-spacing: 0.03em;}
+    letter-spacing: 0.03em;
+padding-left: 99px;
+}
 
 .click {
         font-weight: 500;
@@ -159,7 +166,7 @@ cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding-left: 42px;
-margin-top:10px    }
+margin-top:10px;    }
       
         
 .logo {
@@ -171,15 +178,12 @@ margin-top:10px    }
     text-decoration: none;
     color: #2196F3;
     margin-left: 215px;
-
+    padding-top: 24px;
 }
 
 .container {width: 1200px;
-}
+    }
 
-* {
-    box-sizing: border-box;
-}
 
 .page-header {
     display: flex;
@@ -191,21 +195,82 @@ margin-top:10px    }
 .menu {
     list-style: none;
     display: flex;
-    justify-content:space-between;
+    padding-top: 24px
 }
 
-.contact {
+.write {
     font-style: normal;
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
-        color: #FFFFFF;
+        list-style: none;
         display: flex;
-        justify-content: space-between;
+        margin-left: 215px;
+        padding-top: 24px
     }
-.menu> .permalink:not(:last-child){margin-left: 46px;}
 
-.contact.link{display: block;}
 
+.contact{font-style: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+margin-left: 215px;
+}
+
+.contact a {
+        font-weight: 500;
+        color: #757575;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+.footer-address {
+    list-style: none;
+}
+.address-list {padding-top: 20px;}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.mail {
+    padding-top: 9px;
+}
+
+.card {
+width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-top: 47px;
+}
+
+.computer {margin-left: 215px;
+padding-right: 30px;
+padding-bottom: 94px;}
+
+.computer-second,
+.computer-third {
+    padding-right: 30px;
+    padding-bottom: 94px;
+}
+
+.lorem {
+    color: #757575;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-transform: none;
+    width: 270px;
+    height: 75px;
+}
+
+.menu:not(:last-child) {
+    margin-right: 46px
+}
 
 
