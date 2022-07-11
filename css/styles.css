@@ -1,24 +1,21 @@
-*{box-sizing: border-box;
+* {
+    box-sizing: border-box;
     margin: 0;
-        padding: 0;
-    }
+    padding: 0;
+}
 body {
     color: #212121;
     font-size: 16px;
     font-family: "Roboto", "Raleway", sans-serif;
 }
-.container {
-    width: 1200px;
+.container-main {
+    display: flex;
+    width: 1600px;
 }
 
 .page-header {
-    display: flex;
-    Height: 80px;
-    width: 1600px;
-    border-bottom: 1px solid #ECECEC;
     align-items: center;
 }
-
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -27,19 +24,19 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #2196F3;
-    display: flex;
     padding-left: 215px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
-
 .studio {
     color: #000000
 }
-
 .menu {
     list-style: none;
     display: flex;
+    padding-top: 32px;
+     padding-bottom: 32px;
 }
-
 .menu a {
         font-weight: 500;
     color: #212121;
@@ -49,32 +46,27 @@ line-height: 1.1;
     letter-spacing: 0.02em;
     list-style: none;
 }
-
 .navigation-list {
     padding-left: 93px;
 }
-
 .permalink {
     padding-right: 46px;
 }
-
 .permalink-mail {
-    padding-right: 50px;
+    padding-left: 50px;
 }
 .permalink:focus {
     color: #2196F3
 }
-
 .permalink:hover {
     color: #2196F3
 }
-
 .write a {
         font-weight: 500;
     color:#757575;
 text-decoration: none;
-font-size: 14px;}
-
+font-size: 14px;
+}
 .write {
     font-style: normal;
     font-size: 14px;
@@ -82,64 +74,54 @@ font-size: 14px;}
     letter-spacing: 0.03em;
     list-style: none;
     display: flex;
-    flex-wrap: nowrap;
-    margin-left: 371px;
+    padding-left: 371px;;
+    padding-top: 32px;
 }
 
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
-.first {
-    background-color: #2F303A;
-    height: 600px;
+.section-lorem {padding-top: 94px;}
+.container-first {
     width: 1600px;
-    top: 80px;
+    background-color: #2F303A;
 }
-
 .tittle {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
+    padding-top: 104px;
     border-radius: nullpx;
+    padding-bottom: 186px;
+    text-align: center;
 }
-
 .service {
+    display: flex;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
     cursor: pointer;
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding-left: 42px;
-    margin-top: 10px;
+    padding-right: 41px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 700px;
 }
+.container{width: 1200px}
 .description {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+  justify-content: space-around;
     margin-left: 215px;
 }
 .poem {
@@ -149,8 +131,6 @@ font-size: 14px;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
-    width: 270px;
-    height: 16px;
     margin-right: 30px;
     margin-bottom: 10px;
 }
@@ -160,61 +140,49 @@ font-size: 14px;}
     letter-spacing: 0.03em;
     line-height: 1.5;
     text-transform: none;
-    width: 270px;
-    height: 75px;
+   padding-right: 30px;
 }
+
 .story {
     font-size: 36px;
     line-height: 42px;
-    position: absolute;
-    letter-spacing: 0.03em;
-    left: 624px;
-    top: 969px;
+    padding-left: 624px;
+    padding-bottom: 50px;
 }
 .computer {
     margin-left: 215px;
     padding-right: 30px;
-    padding-bottom: 94px;
 }
 .image {
     list-style: none;
     display: flex;
-    position: absolute;
-    top: 1061px;
 }
 .computer-second,
 .computer-third {
     padding-right: 30px;
-    padding-bottom: 94px;
 }
-
-.third {
-    position: absolute;
+.container-third {
     width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
     background: #F5F4FA;
+}
+.section-team{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .team {
     font-size: 36px;
     line-height: 42px;
-    text-decoration: center;
     letter-spacing: 0.03em;
-    text-align: center;
+    padding-left: 695px;
 }
 .company {
     list-style: none;
     display: flex;
-    margin-left: 215px;
+    padding-left: 215px;
     justify-content: space-between;
     padding-right: 215px;
 }
 .card {
-    width: 270px;
-    height: 368px;
-    left: 215px;
-    top: 1635px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -236,16 +204,21 @@ font-size: 14px;}
     text-transform: none;
     text-align: center;
 }
-
 .end {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
     background: #2F303A;
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    top: 2097px;
     padding-top: 60px;
+}
+.container-footer {width: 1600px;
+    background: #2F303A;
+}
+.end {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 60px;
+    background: #2F303A;
+    width: 1600px;
 }
 .color {
     color: #FFFFFF
@@ -272,10 +245,15 @@ font-size: 14px;}
 .mail {
     padding-top: 9px;
 }
-
-
+.page-portfolio {
+    width: 1600px;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+}
 .background {
     width: 1600px;
+    padding-top: 94px;
+        padding-bottom: 94px;
 }
 .button-list {
     display: flex;
@@ -293,8 +271,10 @@ font-size: 14px;}
         border-radius: 4px;
         margin-left: 8px;
         border-style: none;
-        width: 114px;
-            height: 38px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        padding-right: 22px;
     }
 
 .click:hover{background-color: #2196F3;
@@ -313,10 +293,6 @@ cursor: pointer;
     flex-basis: calc(100%-2*30/3);
     margin-right: 30px;
     margin-top: 56px;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 1130px;
     background: #FFFFFF;
     border-bottom: 1px solid #EEEEEE;
 }
@@ -328,7 +304,6 @@ cursor: pointer;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
-    letter-spacing: 0.06em;
     color: #212121;
     padding-left: 24px;
     padding-top: 20px;
