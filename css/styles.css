@@ -1,20 +1,23 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+*{box-sizing:border-box;
+margin: 0;
+padding: 0;
+    }
 body {
     color: #212121;
     font-size: 16px;
     font-family: "Roboto", "Raleway", sans-serif;
 }
-.container-main {
-    display: flex;
-    width: 1600px;
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
 .page-header {
+    display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    justify-content:left;
 }
 .logo {
     font-family: 'Raleway';
@@ -24,19 +27,11 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #2196F3;
-    padding-left: 215px;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 .studio {
     color: #000000
 }
-.menu {
-    list-style: none;
-    display: flex;
-    padding-top: 32px;
-     padding-bottom: 32px;
-}
+
 .menu a {
         font-weight: 500;
     color: #212121;
@@ -44,26 +39,23 @@ font-size: 14px;
 text-decoration: none;
 line-height: 1.1;
     letter-spacing: 0.02em;
-    list-style: none;
 }
-.navigation-list {
-    padding-left: 93px;
+.menu{
+list-style: none;
+display: flex;
+padding-left: 93px;
 }
-.permalink {
-    padding-right: 46px;
-}
-.permalink-mail {
-    padding-left: 50px;
-}
+.permalink{padding-right: 46px;}
 .permalink:focus {
     color: #2196F3
 }
 .permalink:hover {
     color: #2196F3
 }
+.permalink-mail{padding-right: 46px;}
 .write a {
-        font-weight: 500;
-    color:#757575;
+font-weight: 500;
+color:#757575;
 text-decoration: none;
 font-size: 14px;
 }
@@ -74,18 +66,20 @@ font-size: 14px;
     letter-spacing: 0.03em;
     list-style: none;
     display: flex;
-    padding-left: 371px;;
-    padding-top: 32px;
+padding-left: 371px;
 }
-
-.section {
+.section-tittle {
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: #2F303A;
+    text-align: center;
 }
 .section-lorem {padding-top: 94px;}
-.container-first {
-    width: 1600px;
-    background-color: #2F303A;
+.container {
+width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .tittle {
     font-weight: 900;
@@ -94,13 +88,11 @@ font-size: 14px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-top: 104px;
     border-radius: nullpx;
-    padding-bottom: 186px;
-    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 104px;
 }
 .service {
-    display: flex;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -115,14 +107,21 @@ font-size: 14px;
     padding-right: 41px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 700px;
+    margin-bottom: 114px;
 }
-.container{width: 1200px}
+.container {width: 1200px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+.section{padding-top: 94px;
+    padding-bottom: 94px;}
 .description {
     list-style: none;
     display: flex;
-  justify-content: space-around;
-    margin-left: 215px;
+}
+.poem-lorem{
+    flex-basis: calc(100%-3*30px/4)
 }
 .poem {
     font-weight: 700;
@@ -131,8 +130,6 @@ font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
-    margin-right: 30px;
-    margin-bottom: 10px;
 }
 .lorem {
     color: #757575;
@@ -140,18 +137,26 @@ font-size: 14px;
     letter-spacing: 0.03em;
     line-height: 1.5;
     text-transform: none;
-   padding-right: 30px;
+    padding-top: 10px;
 }
-
+.description {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.poem-lorem {
+    flex-basis: calc(100%-3*30px/4);
+}
 .story {
     font-size: 36px;
     line-height: 42px;
-    padding-left: 624px;
     padding-bottom: 50px;
+
+    text-align: center;
 }
 .computer {
-    margin-left: 215px;
     padding-right: 30px;
+    display: flex;
 }
 .image {
     list-style: none;
@@ -161,39 +166,42 @@ font-size: 14px;
 .computer-third {
     padding-right: 30px;
 }
-.container-third {
-    width: 1600px;
-    background: #F5F4FA;
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .section-team{
     padding-top: 94px;
     padding-bottom: 94px;
+background: #F5F4FA;
 }
 .team {
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.03em;
-    padding-left: 695px;
+    text-align: center;
 }
 .company {
     list-style: none;
     display: flex;
-    padding-left: 215px;
     justify-content: space-between;
-    padding-right: 215px;
 }
 .card {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin-top: 47px;
+    margin-right: 30px
 }
 .name {
     font-weight: 500;
     font-size: 16px;
     line-height: 2;
     letter-spacing: 0.03em;
-    padding-left: 99px;
+    text-align: center;
+    padding-top: 30px;
 }
 .about {
     color: #757575;
@@ -203,22 +211,19 @@ font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: none;
     text-align: center;
+    padding-bottom: 30px;
 }
-.end {
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.6);
-    background: #2F303A;
-    padding-top: 60px;
-}
-.container-footer {width: 1600px;
-    background: #2F303A;
+.container{width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .end {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
     padding-top: 60px;
     background: #2F303A;
-    width: 1600px;
+    padding-bottom: 60px;
 }
 .color {
     color: #FFFFFF
@@ -228,7 +233,6 @@ font-size: 14px;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    margin-left: 215px;
 }
 .contact a {
     font-weight: 500;
@@ -245,13 +249,13 @@ font-size: 14px;
 .mail {
     padding-top: 9px;
 }
+
+
 .page-portfolio {
-    width: 1600px;
     align-items: center;
     border-bottom: 1px solid #ECECEC;
 }
 .background {
-    width: 1600px;
     padding-top: 94px;
         padding-bottom: 94px;
 }
@@ -285,13 +289,11 @@ cursor: pointer;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 215px;
+    gap: 30px;
 }
 
-.img {
-    justify-content: space-between;
+.img {display: flex;
     flex-basis: calc(100%-2*30/3);
-    margin-right: 30px;
     margin-top: 56px;
     background: #FFFFFF;
     border-bottom: 1px solid #EEEEEE;
